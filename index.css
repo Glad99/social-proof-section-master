@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color:  hsl(300, 24%, 96%)
+}
+
+main{
+    /* background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed; */
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5em 8em;
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    width: 8em;
+    font-weight: 700;
+    font-size: 3em;
+}
+.top{
+    display: flex;
+    gap: 10rem;
+
+}
+#stars{
+    display: flex;
+    flex-direction: column;
+
+    padding: 3em;
+    width: 27em;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    
+}
+
+.service{
+    width: 23rem;
+}
+.f-star{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    background-color: hsl(305, 24%, 91%);
+    padding-left: 1.5em;
+    border-radius: 0.5em;
+    margin-right: 4em;
+}
+.s-star{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    background-color: hsl(305, 24%, 91%);
+    padding-left: 1.5em;
+    border-radius: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.t-star{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    background-color: hsl(305, 24%, 91%);
+    padding-left: 1.5em;
+    border-radius: 0.5em;
+    margin-left: 4em;
+}
+
+#stars img{
+    width: 0.7em;
+    height: 0.7em;
+    align-self: center;
+}
+#stars p{
+    padding-left: 0.5em;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 3em;
+}
+.first{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 0.5em;
+}
+.second{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 0.5em;
+}
+.third{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 0.5em;
+}
+.box img{
+    border-radius: 100%;
+}
+.foot{
+    align-self: center;
+}
